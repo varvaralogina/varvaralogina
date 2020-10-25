@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang=ru>
+
+  <head>
+    <meta charset="utf-8">
+   <link rel="stylesheet" href="style.css" type="text/css">
+   <title> Резюме </title>
+   </head>
+
+    <body>
+    <div id="header">
+    <h1> Веригина Варвара </h1>   
+    <h2 class="header-title"> Web-разработчик </h2>
+    <a href="mailto:varyvell777@grail.com">varyvell777@grail.com</a>,
+        <a href="https://vk.com/varyvell">https://vk.com/varyvell</a>
+        </div>
+    <div id="main">
+    <h2> Опыт работы </h2> 
+        <p> Нет опыта работы</p> 
+    <h2> Образование </h2>
+        <ol>
+        <li><p>"Финансовый Университет при Правительстве РФ". Бакалавриат. Менеджмент. 1 курс. </p></li>
+        <li><p> ГПОУ ТО "Тульский государственный технологический колледж". Веб-дизайн и разработка. 1 курс.</p></li>
+        </ol>
+    <h2> Другие навыки и увлечения </h2>
+        <ol>
+        <li><p> Креативность в работе </p></li>
+        <li><p> Написание текстов </p></li>
+        <li><p> Развитая фантазий </p></li>
+        <li><p> Умение быстро учиться </p></li>
+        </ol>   
+        </div>
+    <div id="footer">
+    <h3>Веригина Варвара</h3>
+    <p>Тульская область, Тула,  8-902-150-45-95, <a href="mailto:varyvell777@grail.com">varyvell777@grail.com</a> </p>
+        </div>
+    </body>
+
+</html>
+
+body {
+    margin-bottom: 12px;
+    font-family: Georgia;
+    font-weight: 400px;
+}
+
+ol {
+    list-style-type: disc;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 32px;
+    border-bottom: 1px solid gray;
+    margin-bottom: 8px;
+}
+h2.header-title {
+  font-size: 18px;
+  border-bottom: none;
+  margin-bottom: 10px;
+}
+.header {
+  margin-bottom: 32px;
+  text-align: center;
+}
+.footer {
+  margin-top: 64px;
+  text-align: center;
+}
+
